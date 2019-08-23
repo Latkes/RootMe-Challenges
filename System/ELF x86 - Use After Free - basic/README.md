@@ -2,12 +2,12 @@
 https://www.root-me.org/en/Challenges/App-System/ELF-x86-Use-After-Free-basic
 ```
 Environment configuration :
-PIE 	Position Independent Executable 		 No
-RelRO 	Read Only relocations 	             Yes
-NX 	Non-Executable Stack 	                 Yes
-Heap exec 	Non-Executable Heap 	           Yes
-ASLR 	Address Space Layout Randomization 	 Yes  
-SRC 	Source code access 	                  Yes
+PIE 	Position Independent Executable 	No
+RelRO 	Read Only relocations 	             	Yes
+NX 	Non-Executable Stack 	                Yes
+Heap exec 	Non-Executable Heap 	        Yes
+ASLR 	Address Space Layout Randomization 	Yes  
+SRC 	Source code access 	                Yes
 
 Challenge connection informations :
 
