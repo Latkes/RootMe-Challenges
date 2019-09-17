@@ -23,7 +23,7 @@ The challenge provides a source code, and the title pretty much implies the vuln
 ```c
 struct Dog {
     char name[12];
-    void (*bark)();						// <---- a function which does nothing
+    void (*bark)();				// <---- a function which does nothing
     void (*bringBackTheFlag)();			// <---- a function which prints the flag
     void (*death)(struct Dog*);			// <---- a function which frees the dog struct
 };
