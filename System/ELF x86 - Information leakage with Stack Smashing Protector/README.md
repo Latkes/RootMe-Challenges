@@ -50,7 +50,7 @@ As you may notice, the "ch29" is gone. At the time of writing the offset was 184
 bytes after the offset found before. It happens because the argv[0]'s LSB is getting overwritten by the null-byte of our buffer.
 
 So after verifing it, let's try to read some of the data at the program's memory
-space. Usually, 32-bit Linux's programmed are mapped to an address space that range
+space. Usually, 32-bit Linux's programs are mapped to an address space that range
 from 0x08040000 to 0x0804ffff. So we should try and brute force all the address
 space, and see if there is anything interesting.
 
