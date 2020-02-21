@@ -47,7 +47,7 @@ So let's craft a file that will look like the following:
    (*) For passing the if at line 35.
 ```
 With a bit of guessing, one can find out the the offset to the **eip** in stack is 140 bytes after the "/" character.
-So out exploit should look like the following:
+So our exploit should look like the following:
 ```
    +------------+---------+--------------------+--------------------------------+--------------------------+
    | 0xffffffff | "/" (*) | 28 bytes SHELLCODE | 112 bytes of JUNK for overflow | address of the shellcode |
